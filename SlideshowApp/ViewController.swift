@@ -162,7 +162,7 @@ class ViewController: UIViewController {
             timer?.invalidate()
             timer = nil
             //停止 -> 再生　ボタン名変更
-            StartStop.setTitle("停止", for: .normal)
+            StartStop.setTitle("再生", for: .normal)
             //「進む」「戻る」ボタン　有効
             Next.isEnabled = true
             Back.isEnabled = true
